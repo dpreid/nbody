@@ -85,3 +85,8 @@ The outputs of these java programs can then be input into nbody_sh1.
 * coll_time all had to be stored as single value arrays.
 
 June 2016 David Reid (from v1 of the Art of Computational Physics by Piet Hut and Jun Makino.
+
+animatePlot2.m is an Octave file used to generate plots of each snapshot output by nbody_sh1. These plots can
+then be combined into an animation using appropriate software.
+
+
