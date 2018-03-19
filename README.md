@@ -63,6 +63,13 @@ A Java implementation of the N-body integrator of Hut, P., Makino, J. &amp; McMi
 * m2 r2_x r2_y r2_z v2_x v2_y v2_z
 * ...
 * mn rn_x rn_y rn_z vn_x vn_y vn_z
+
+Code to generate specific types of snapshot has been included in the repository:
+
+writeSphere: generates a spherical distribution of particles
+mkPlummer: generates a distribution of particles according to the Plummer model. 
+
+The outputs of these java programs can then be input into nbody_sh1.
 *
 * Output of each snapshot is written according to the same format.
 *
